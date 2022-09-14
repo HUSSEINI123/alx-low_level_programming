@@ -8,7 +8,7 @@ void times_table(void)
 	int x = 0; /* factor */
 	int y; /* count  */
 	int z; /* computed value */
-	
+
 	while (x < 10)
 	{
 		y = 0;
@@ -25,7 +25,9 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(z + '0');
 			}
-			else{_putchar(z + '0');
+			else
+			{
+				_putchar(z + '0');
 			}
 			if (y != 9)
 			{
