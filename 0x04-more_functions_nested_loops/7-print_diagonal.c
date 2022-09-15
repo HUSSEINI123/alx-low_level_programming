@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- 
- *  * print_diagonal - prints diagonal line using "\" character of n length: length of the line
+ * print_diagonal - prints diagonal line using "\"
+ * character of n length: length of the line
  * Return: void
  */
 
@@ -15,6 +15,7 @@ void print_diagonal(int n)
 		while (i < n)
 		{
 			int count = 0;
+
 			_putchar('\n');
 			while (count < i)
 			{
