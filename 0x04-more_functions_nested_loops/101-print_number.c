@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_number - prints a number using _putchar
+ * print _number - prints number using _putchar
  * @n: number to print
  * Return: void
  */
@@ -12,7 +12,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		n1 = -n;
-		_putchar('-');
+		_putchat('-');
 	}
 	else
 	{
@@ -23,4 +23,4 @@ void print_number(int n)
 		print_number(n1 / 10);
 	}
 	_putchar((n1 % 10) + '0');
-}	
+}
