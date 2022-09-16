@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	long int max = -1, n = 612852475143;int i = 3;
+	long int max = -1, n = 612852475143;
+	int i = 3;
 
 	while (n % 2 == 0)
 	{
@@ -21,7 +22,8 @@ int main(void)
 			max = i;
 			n = n / i;
 		}
-		i += 2;}
+		i += 2;
+	}
 	if (n > 2)
 		max = n;
 	printf("%ld\n", max);
