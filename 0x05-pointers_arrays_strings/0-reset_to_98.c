@@ -1,14 +1,12 @@
 #include "main.h"
 
 /**
- * swap_int - swaps the values pointed to by arguments
- * @a: pointer argument 1
- * @b: pointer argument 2
+ * reset_to_98 - changes the value of the variable
+ * that's pointed to by the argument to 98
+ * @n: pointer variable
  */
 
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int c = *a;
-	*a = *b;
-	*b = c;
+	*n = 98;
 }
