@@ -7,7 +7,7 @@
  */
 
 char *_strcat(char *dest, char *src)
-{	
+{
 	int i = 0, j = 0;
 	char *p;
 
@@ -23,3 +23,4 @@ char *_strcat(char *dest, char *src)
 	p = dest;
 	return (p);
 }
+
