@@ -33,6 +33,7 @@ void print_number(int n)
 void num_to_char(unsigned int n)
 {
 	unsigned int d = 10;
+
 	if (n < d)
 	{
 		_putchar('0' + n);
